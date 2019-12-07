@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+section {
+    border: 75px solid white;
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    margin-left: 3%;
+}
+
+#intro {
+    background-image: url('media/intro_background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* margin-left: 8%; */
+    
+}
+
+#popularity {
+    background-image: url('media/piechart_background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#potassium {
+    background-image: url('media/barchart_background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* margin-left: 7%; */
+}
+
+#economy {
+    background-image: url('media/linechart_background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#history_transition {
+    background-image: url('media/history_background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* margin-left: 6%; */
+}
+
+#timeline {
+    background-image: url('media/timeline_background.png');
+    background-size: 100% 100%;
+    /* margin-left: 0%; */
+}
+
+#significance_transition {
+    background-image: url('media/significance_background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* margin-left: 9%; */
+}
+
+#biodiversity {
+    background-image: url('media/biodiversity_background.png');
+    background-size: 100% 100%;
+}
+
+#ending {
+    background-image: url('media/ending_background.png');
+    background-size: 100% 100%;
+}

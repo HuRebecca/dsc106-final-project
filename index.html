@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This Story is Bananas</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/series-label.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    </head>
+
+    <body>
+        <main>
+
+            <section id="intro" style='height: 800px; width: 1550px;'>
+                <div class="section-inner"></div>
+            </section>
+
+            <section id="popularity" style='height: 800px; width: 1550px;'>
+                <div class="section-inner">
+                    <button onclick="pieFunction()" style='position: absolute; left: 450px; top: 1610px'>Toggle Metric</button>
+                    <div id="value_pie" style="width: 700px; height: 700px; margin-top: 50px ; margin-left: 120%; display: block;"></div>
+                    <div id="quantity_pie" style="width: 700px; height: 700px; margin-top: 50px ; margin-left: 120%; display: none;"></div>
+                </div>
+            </section>
+
+            <section id="potassium" style='height: 800px; width: 1550px;'>
+                <div class="section-inner">
+                    <div id="bar" style="width: 800px; height: 600px; margin-top: 50px; ; margin-left: 50px"></div>
+                </div>
+            </section>
+
+            <section id="economy" style='height: 800px; width: 1550px;'>
+                <div class="section-inner">
+                    <div id="line" style="width: 800px; height: 700px; margin-top: 50px ; margin-left: 95%"></div>
+                    </div>
+                </section>
+
+            <section id="history_transition" style='height: 450px; width: 1580px;'>
+                <div class="section-inner"></div>
+                </section>
+
+            <section id="timeline" style='height: 1536px; width: 1600px;'>
+                <div class="section-inner">
+                    <button onclick="vennFunction()" style='position: absolute; left: 430px; top: 5950px'>Banana Venn Diagram</button>
+                    <div id="venn_diagram" style="width: 700px; height: 700px; margin-top: 900px ; margin-left: 50%; display: none;">
+                        <img src='media/venn_diagram.svg' alt = 'Banana Comparison'> 
+                    </div>
+                </div>
+                </section>
+
+            <section id="significance_transition" style='height: 450px; width: 1550px;'>
+                <div class="section-inner"></div>
+                </section>
+
+            <section id="biodiversity" style='height: 1536px; width: 1600px;'>
+                <div class="section-inner">
+                    <div id="chloropleth" style="width: 1000px; height: 600px; margin-top: 975px ; margin-left: 325px"></div>
+                </div>
+                </section>
+
+            <section id="ending" style='height: 800px; width: 1550px;'>
+               <div class="section-inner"></div>
+                </section>
+        </main>
+        <footer>
+            © Copyright Rebecca Hu, 2019
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
